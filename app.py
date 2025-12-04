@@ -12,7 +12,7 @@ MODEL_FILE = PROC / "relevancy_model.pkl"
 VECT_FILE = PROC / "vectorizer.pkl"
 
 # -----------------------------
-# CLEAN TEXT
+# CLEAN TEXT w
 # -----------------------------
 def clean_text(txt):
     if txt is None or pd.isna(txt):
